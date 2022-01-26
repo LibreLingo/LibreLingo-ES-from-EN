@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  verify-course:
+    runs-on: ubuntu-latest
+    name: Verify course
+    steps:
+      - uses: actions/checkout@v2
+      - uses: LibreLingo/course-ci@main
