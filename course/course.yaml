@@ -11,7 +11,7 @@ Course:
     Name: Attribution-ShareAlike 4.0 International
     Short name: CC BY-SA 4.0
     Link: https://creativecommons.org/licenses/by-sa/4.0/legalcode
-  Repository: https://github.com/kantord/LibreLingo-ES-from-EN
+  Repository: https://github.com/LibreLingo/LibreLingo-ES-from-EN
   Special characters:
     - "á"
     - "Á"
@@ -34,3 +34,11 @@ Modules:
   - basics/
   - introduction/
   - activities/
+
+Settings:
+  Audio:
+    Enabled: True
+    TTS:
+      - Provider: Polly
+        Voice: Lucia
+        Engine: standard
